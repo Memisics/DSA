@@ -1,42 +1,41 @@
+
 import java.util.*;
 
 class Solution {
     public String frequencySort(String s) {
-        boolean[] visited = new boolean[s.length()];
-        String[] arr = new String[s.length()];
-        int index = 0;
+        Map<Character, Integer> freq = new HashMap<>();
 
-        // Step 1: Group identical characters together
-        for (int i = 0; i < s.length(); i++) {
-            if (visited[i]) {
-                continue;
+        // Step 1: Count frequency
+        for (char c : s.toCharArray()) {
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
+        }
+
+        // Step 2: Create buckets based on frequency
+        List<Character>[] bucket = new ArrayList[s.length() + 1];
+
+        for (char c : freq.keySet()) {
+            int count = freq.get(c);
+
+            if (bucket[count] == null) {
+                bucket[count] = new ArrayList<>();
             }
 
-            String str = "";
+            bucket[count].add(c);
+        }
 
-            for (int j = i; j < s.length(); j++) {
-                if (s.charAt(i) == s.charAt(j)) {
-                    str = str + s.charAt(j);
-                    visited[j] = true;
+        // Step 3: Build result from highest frequency to lowest
+        StringBuilder ans = new StringBuilder();
+
+        for (int i = bucket.length - 1; i >= 1; i--) {
+            if (bucket[i] != null) {
+                for (char c : bucket[i]) {
+                    for (int j = 0; j < i; j++) {
+                        ans.append(c);
+                    }
                 }
             }
-
-            arr[index] = str;
-            index++;
         }
 
-        // Step 2: Sort groups by decreasing length
-        Arrays.sort(arr, 0, index, (a, b) ->
-            Integer.compare(b.length(), a.length())
-        );
-
-        // Step 3: Combine all groups into one string
-        String ans = "";
-
-        for (int i = 0; i < index; i++) {
-            ans = ans + arr[i];
-        }
-
-        return ans;
+        return ans.toString();
     }
 }
