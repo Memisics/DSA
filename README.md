@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1512-number-of-good-pairs](https://github.com/Memisics/DSA/tree/master/1512-number-of-good-pairs) |
 | [1980-find-unique-binary-string](https://github.com/Memisics/DSA/tree/master/1980-find-unique-binary-string) |
 | [3467-transform-array-by-parity](https://github.com/Memisics/DSA/tree/master/3467-transform-array-by-parity) |
+| [3925-concatenate-array-with-reverse](https://github.com/Memisics/DSA/tree/master/3925-concatenate-array-with-reverse) |
 ## Hash Table
 |  |
 | ------- |
@@ -52,4 +53,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1980-find-unique-binary-string](https://github.com/Memisics/DSA/tree/master/1980-find-unique-binary-string) |
+## Simulation
+|  |
+| ------- |
+| [3925-concatenate-array-with-reverse](https://github.com/Memisics/DSA/tree/master/3925-concatenate-array-with-reverse) |
 <!---LeetCode Topics End-->
