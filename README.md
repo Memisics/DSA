@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1512-number-of-good-pairs](https://github.com/Memisics/DSA/tree/master/1512-number-of-good-pairs) |
 | [1980-find-unique-binary-string](https://github.com/Memisics/DSA/tree/master/1980-find-unique-binary-string) |
 | [3467-transform-array-by-parity](https://github.com/Memisics/DSA/tree/master/3467-transform-array-by-parity) |
+| [3719-longest-balanced-subarray-i](https://github.com/Memisics/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3925-concatenate-array-with-reverse](https://github.com/Memisics/DSA/tree/master/3925-concatenate-array-with-reverse) |
 ## Hash Table
 |  |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1512-number-of-good-pairs](https://github.com/Memisics/DSA/tree/master/1512-number-of-good-pairs) |
 | [1980-find-unique-binary-string](https://github.com/Memisics/DSA/tree/master/1980-find-unique-binary-string) |
 | [3541-find-most-frequent-vowel-and-consonant](https://github.com/Memisics/DSA/tree/master/3541-find-most-frequent-vowel-and-consonant) |
+| [3719-longest-balanced-subarray-i](https://github.com/Memisics/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3945-digit-frequency-score](https://github.com/Memisics/DSA/tree/master/3945-digit-frequency-score) |
 ## Math
 |  |
@@ -57,4 +59,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3925-concatenate-array-with-reverse](https://github.com/Memisics/DSA/tree/master/3925-concatenate-array-with-reverse) |
+## Divide and Conquer
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/Memisics/DSA/tree/master/3719-longest-balanced-subarray-i) |
+## Segment Tree
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/Memisics/DSA/tree/master/3719-longest-balanced-subarray-i) |
+## Prefix Sum
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/Memisics/DSA/tree/master/3719-longest-balanced-subarray-i) |
 <!---LeetCode Topics End-->
